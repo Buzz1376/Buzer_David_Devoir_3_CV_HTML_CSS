@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900');
 @font-face{
-	font-family: "Raleway", sans-serif;
+	font-family: "Raleway";
 	src: url('../fonts/Raleway-VariableFont_wght.woff');
 	src: url('../fonts/Raleway-VariableFont_wght.ttf') format('truetype');
 }
@@ -126,38 +126,61 @@ main{
     height: 70em;
 }
 
+/*Section GAUCHE*/
 .blocleft{
-    flex-direction: column;
     position: relative;
     width: 23em;
     background-color: #e3e3e3;
 }
 
+/*Titres secondaires partie GAUCHE*/
 .h2left{
     color: #17abb3;
     border-bottom: 0.1em solid #f5f5f5;
-    margin: 1.5em 2em 1.5em 2em;
+    margin: 1.5em 2em 1em 2em;
 }
 
+/*Système de notation par étoiles*/
+.skills{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5em 3em;
+}
+
+/*Texte Compétences*/
+.RateTxt{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.star{
+    font-size: 1em;
+    color: #17abb3;
+}
+
+/*Section DROITE*/
 .blocright{
-    flex-direction: column;
     position: relative;
     width: 49.5em;
     background-color: #ffffff;
 }
 
+/*Titres secondaires partie DROITE*/
 .h2right{
     color: #17abb3;
     border-bottom: 0.1em solid rgba(227, 227, 227, 1);
     margin: 1.5em 2em 1em 2em;
 }
 
+/*A revoir?*/
 .h3left{
     color: #333333;
     margin-top: 0.5em;
     margin-right: 20em;
 }
 
+/*A revoir?*/
 .h3right{
     float: right;
     color: #17abb3;
@@ -166,6 +189,7 @@ main{
     margin-top: -2.6em;
 }
 
+/*Profil*/
 .about{
     font-family: 'Raleway', sans-serif;
     color: #333333;
@@ -174,12 +198,14 @@ main{
     margin: 0 3em;
 }
 
+/*Formations & Diplomes*/
 .FormBox{
     display: flex;
     flex-direction: column;
     margin: 0 3em;
 }
 
+/*Sous Texte Formations*/
 .FormTxt{
     font-family: 'Raleway', sans-serif;
     font-style: italic;
