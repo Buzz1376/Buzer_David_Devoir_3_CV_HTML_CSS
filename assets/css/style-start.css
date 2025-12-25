@@ -8,7 +8,7 @@
 header{
     display: flex;
     background-color: #17abb3;
-    height: 12em;
+    height: 13em;
     text-align: center;
     justify-content: space-around;
     align-items: center;
@@ -31,7 +31,7 @@ h3{
     font-family: 'Lato', sans-serif;    
 }
 
-figure{
+picture{
     margin-left: -4em;
     width: 8em;
     height: 8em;
@@ -46,11 +46,11 @@ img{
     border: 0.3em solid #ffffff;
 }
 
-figure:hover img{
+picture:hover img{
     cursor: zoom-in;
 }
 
-figure:active img{
+picture:active img{
     transform: scale(1.5);
     object-fit: cover;
 }
