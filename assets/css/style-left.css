@@ -1,0 +1,60 @@
+/*-----Section GAUCHE-----*/
+.blocleft{
+    position: relative;
+    width: 23em;
+    background-color: #e3e3e3;
+}
+
+/*Titres secondaires partie GAUCHE*/
+.h2left{
+    color: #17abb3;
+    border-bottom: 0.1em solid #f5f5f5;
+    margin: 1.5em 2em 1em 2em;
+    padding-bottom: 0.5em;
+}
+
+/*Compétences & Langues*/
+.skills{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5em 3em;
+}
+
+/*Texte Compétences & Langues*/
+.RateTxt{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+/*Système de notation par étoiles*/
+.star{
+    font-size: 1.2em;
+    color: #17abb3;
+}
+
+/*Texte niveau des langues*/
+.LangLevel{
+    font-family: 'Raleway', sans-serif;
+    color: #333333;
+}
+
+/*Styles de listes qualités & centres d'intérêt*/
+.ListStyle{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    margin: 0.5em 3em;
+    padding-left: 0;
+    line-height: 1.4em;
+    color: #333333;
+    list-style-type: none;
+}
+
+/*Puces & couleur - Qualités & centres d'intérêt*/
+.ListPos::before{
+    content: "\0025A0";
+    padding-right: 0.8em;
+    color: #17abb3;
+    vertical-align: text-bottom;
+ }

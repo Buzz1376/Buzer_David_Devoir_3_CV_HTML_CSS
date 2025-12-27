@@ -1,0 +1,64 @@
+/*-----Section DROITE-----*/
+.blocright{
+    position: relative;
+    width: 49.5em;
+    background-color: #ffffff;
+}
+
+/*Titres secondaires partie DROITE*/
+.h2right{
+    color: #17abb3;
+    border-bottom: 0.1em solid rgba(227, 227, 227, 1);
+    margin: 1.5em 2em 1em 2em;
+    padding-bottom: 0.5em;
+}
+
+.h3right{
+    color: #333333;
+    margin-top: 0.5em;
+}
+
+/*Profil*/
+.about{
+    font-family: 'Raleway', sans-serif;
+    color: #333333;
+    text-indent: 2em;
+    text-align: justify;
+    margin: 0 3em;
+}
+
+/*Formations, Diplomes et Experience PRO*/
+.FormBox{
+    display: flex;
+    flex-direction: column;
+    margin: 0 3em;
+}
+
+/*Périodes Formations, Diplomes et Expérience PRO*/
+.period{
+    float: right;
+    font-family: 'Raleway', sans-serif;
+    color: #17abb3;
+    font-size: medium;
+    margin-top: -2.4em;
+    padding-bottom: 0.1em;
+}
+
+/*Sous Texte Formations, Diplomes et Expérience PRO*/
+.FormTxt{
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-size: small;
+    color: #333333;
+    margin-top: -1.5em;
+    padding-bottom: 0.5em;
+}
+
+.Experience{
+    margin-top: 0.3em;
+}
+
+.Experience:hover{
+    background-color: #e3e3e3;
+    border-left: 0.4em solid #17abb3;
+}
