@@ -35,10 +35,9 @@ picture{
     margin: -0.6em 0 0 -4em;
     width: 8em;
     height: 8em;
-    position: static;
 }
 
-img{
+.ImgProfil{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -99,7 +98,6 @@ picture:active img{
 
 .contact__item3{
     list-style-image:  url('../img/Adresse.png');
-    list-style-type: none;
 }
 
 .contact__item4{
@@ -123,131 +121,7 @@ body{
 main{
     display: flex;
     position: relative;
-    height: 60em;
-}
-
-/*-----Section GAUCHE-----*/
-.blocleft{
-    position: relative;
-    width: 23em;
-    background-color: #e3e3e3;
-}
-
-/*Titres secondaires partie GAUCHE*/
-.h2left{
-    color: #17abb3;
-    border-bottom: 0.1em solid #f5f5f5;
-    margin: 1.5em 2em 1em 2em;
-}
-
-/*Compétences & Langues*/
-.skills{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0.5em 3em;
-}
-
-/*Texte Compétences & Langues*/
-.RateTxt{
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-}
-
-/*Système de notation par étoiles*/
-.star{
-    font-size: 1.2em;
-    color: #17abb3;
-}
-
-/*Texte niveau des langues*/
-.LangLevel{
-    font-family: 'Raleway', sans-serif;
-    color: #333333;
-}
-
-/*Styles de listes qualités & centres d'intérêt*/
-.ListStyle{
-    display: flex;
-    flex-direction: column;
-    font-family: 'Raleway', sans-serif;
-    margin: 0.5em 3em;
-    padding-left: 0;
-    line-height: 1.4em;
-    color: #333333;
-    list-style-type: none;
-}
-
-/*Puces & couleur - Qualités & centres d'intérêt*/
-.ListPos::before{
-    content: "\0025A0";
-    padding-right: 0.8em;
-    color: #17abb3;
-    vertical-align: text-bottom;
- }
-
-/*-----Section DROITE-----*/
-.blocright{
-    position: relative;
-    width: 49.5em;
-    background-color: #ffffff;
-}
-
-/*Titres secondaires partie DROITE*/
-.h2right{
-    color: #17abb3;
-    border-bottom: 0.1em solid rgba(227, 227, 227, 1);
-    margin: 1.5em 2em 1em 2em;
-}
-
-.h3right{
-    color: #333333;
-    margin-top: 0.5em;
-}
-
-/*Profil*/
-.about{
-    font-family: 'Raleway', sans-serif;
-    color: #333333;
-    text-indent: 2em;
-    text-align: justify;
-    margin: 0 3em;
-}
-
-/*Formations, Diplomes et Experience PRO*/
-.FormBox{
-    display: flex;
-    flex-direction: column;
-    margin: 0 3em;
-}
-
-/*Périodes Formations, Diplomes et Expérience PRO*/
-.period{
-    float: right;
-    font-family: 'Raleway', sans-serif;
-    color: #17abb3;
-    font-size: medium;
-    margin-top: -2.4em;
-    padding-bottom: 0.1em;
-}
-
-/*Sous Texte Formations, Diplomes et Expérience PRO*/
-.FormTxt{
-    font-family: 'Raleway', sans-serif;
-    font-style: italic;
-    font-size: small;
-    color: #333333;
-    margin-top: -1.5em;
-    padding-bottom: 0.5em;
-}
-
-.Experience{
-    margin-top: 0.3em;
-}
-
-.Experience:hover{
-    background-color: #e3e3e3;
-    border-left: 0.4em solid #17abb3;
+    height: 65em;
 }
 
 .foot{
@@ -262,3 +136,23 @@ main{
     height: 7em;
 }
 
+/*Liens vers les réseaux sociaux*/
+.social_icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social_item{
+    width: 2.4em;
+    height: 2.4em;
+}
+
+.social_item:hover{
+    opacity: 0.8;
+}
+
+img{
+    border-radius: 0%;
+    border-style: none;
+}
